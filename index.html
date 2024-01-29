@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ChiuDeYuan's Blog</title>
+  <meta content="This is ChiuDeYuan(邱德原)'s website! Welcome!" name="description">
+  <meta content="邱德原, ChiuDeYuan, Chiu De-Yuan, ChiuChiuCircle, blog" name="keywords">
+
+  <!-- circle-icon -->
+  <link href="assets/img/others/circle-icon-32.png" rel="icon">
+  <link href="assets/img/others/circle-icon-180.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="./assets/css/style.css" rel="stylesheet">
+
+  <!-- include icons -->
+  
+  <!-- =======================================================
+  * Template Name: Squadfree
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between position-relative">
+
+      <div class="logo">
+        <h1 class="text-light">
+          <a href="index.html">
+            <img src="assets/img/others/logo_25.png" alt="" class="img-fluid">
+            <span id="main_brand"> CHIUDEYUAN'S BLOG</span>
+          </a>
+        </h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Me</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Latest</a></li>
+          <li class="dropdown"><a href="#services"><span>Works</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">專案作品</a></li>
+              <li><a href="#">筆記&講義</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up">
+      <h1>Welcome</h1>
+      <h2>這裡有我的所有作品和筆記</h2>
+      <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+    </div>
+  </section>
+  <script>
+    function randomImage(){
+      var images=["./assets/img/background/cyber_background.png",
+                  "./assets/img/background/cyber_background2.png",
+                  "./assets/img/background/cyber_background3.png",
+                  "./assets/img/background/cyber_background4.png",
+                  "./assets/img/background/cyber_background6.png",
+                  "./assets/img/background/cyber_background7.jpg",
+                  ]
+      var size = images.length;
+      var x = Math.floor(size * Math.random());
+      document.getElementById("hero").style.cssText="background: linear-gradient(black 0 2%, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.2)), url("+images[x]+");width: 100%;height: 100vh;background-size: cover;position: relative;margin-bottom: -90px;background-attachment: fixed;";
+    }
+    randomImage()
+  </script>
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>About Me</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="main-container">
+              <div class="fixer-container">
+                <div class="content">
+                  <p>
+                    <img src="./assets/img/others/selfie.jpg" alt="my selfie" id="selfie">
+                  </p>
+                  <h4>Hello.</h4>
+                  <p style="font-size: 18px;">
+                    I'm <strong>Chiu De-Yuan(邱德原)</strong>, a student from <br>Taichung First Senior High School in Taiwan.<br><br>
+                    I've been learning programming for two years and <br>I'm still making progress.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-7 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-receipt"></i>
+                  <h4>Experience</h4>
+                    <p>
+                      <div class="main-container">
+                        <div class="fixer-container">
+                          <ul>
+                            <li>台中一中電研社(TCIRC) Lecturer</li>
+                            <li>中部電資聯合會議(SCAICT) Participant</li>
+                            <li>Stanford CS229 沒有證明のStudent</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-book-reader"></i>
+                  <h4>Main Skill</h4>
+                  <p>
+                    <div class="main-container">
+                      <div class="fixer-container">
+                        <ul>
+                          <li>Machine Learning</li>
+                          <li>Deep Learning</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bxs-widget"></i>
+                  <h4>I Also Learn...</h4>
+                  <p>
+                    <div class="main-container">
+                      <div class="fixer-container">
+                        <ul>
+                          <li>Algorithm</li>
+                          <li>Discord Bot</li>
+                          <li>Raspberry Pi</li>
+                          <li>Website Front-end</li>
+                          <li>Piano(through Youtube!)</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bx bxs-invader"></i>
+                  <h4>Additional Information</h4>
+                  <p>
+                    <div class="main-container">
+                      <div class="fixer-container">
+                        <ul>
+                          <li>Dnb is my favorite music style.</li>
+                          <li>I like Cthulhu Mythos, beetles, weird stuff like that. You can see my beetle specimens <a href="#">here</a>.</li>
+                          <li>I'm a rhythm games player.</li>
+                          <li>My internet nickname is ChiuChiuCircle</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+                <div class="content" data-aos="fade-up" data-aos-delay="100">
+                  <a href="https://theuselessweb.com/" class="about-btn" target="_blank">A Useless button <i class="bx bx-chevron-right"></i></a>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Latest</h2>
+          <p>最新文章</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+      
+                <div  class="main-container">
+                  <div class="fixer-container">
+
+                    <a href="https://hackmd.io/@ChiuChiuCircle/Hy_dxvst6">
+                    <div class="latest-img-box">
+                      <img src="assets/img/article_img/a0129.jpg" class="testimonial-img" alt="">
+                    </div>
+                    <div class="slide-box">
+                      <h3>Git的使用</h3>
+                      <h4>2024/1</h4>
+                    </div>
+                    </a>
+
+                  </div>
+                </div>
+                
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+      
+                <div  class="main-container">
+                  <div class="fixer-container">
+
+                    <a href="https://hackmd.io/@ChiuChiuCircle/SJnknwdH6">
+                    <div class="latest-img-box">
+                      <img src="assets/img/article_img/b0129.jpg" class="testimonial-img" alt="">
+                    </div>
+                    <div class="slide-box">
+                      <h3>Al淺談 & Machine Learning原理介紹</h3>
+                      <h4>2023/12</h4>
+                    </div>
+                    </a>
+
+                  </div>
+                </div>
+                
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+      
+                <div  class="main-container">
+                  <div class="fixer-container">
+
+                    <a href="https://hackmd.io/@ChiuChiuCircle/SJXSjQnUT">
+                    <div class="latest-img-box">
+                      <img src="assets/img/article_img/a0128.png" class="testimonial-img" alt="">
+                    </div>
+                    <div class="slide-box">
+                      <h3>以卷積神經網絡進行手寫辨識</h3>
+                      <h4>2023/12</h4>
+                    </div>
+                    </a>
+
+                  </div>
+                </div>
+                
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+      
+                <div  class="main-container">
+                  <div class="fixer-container">
+
+                    <a href="https://hackmd.io/@ChiuChiuCircle/make_a_dcbot">
+                    <div class="latest-img-box">
+                      <img src="assets/img/article_img/c0129.png" class="testimonial-img" alt="">
+                    </div>
+                    <div class="slide-box">
+                      <h3>開始製作discord bot</h3>
+                      <h4>2023/10</h4>
+                    </div>
+                    </a>
+
+                  </div>
+                </div>
+                
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+      
+                <div  class="main-container">
+                  <div class="fixer-container">
+
+                    <a href="https://hackmd.io/@ChiuChiuCircle/S1DM3d_7p">
+                    <div class="latest-img-box">
+                      <img src="assets/img/article_img/d0129.jpg" class="testimonial-img" alt="">
+                    </div>
+                    <div class="slide-box">
+                      <h3>建立機器人Part2 & 線上託管 & Cogs</h3>
+                      <h4>2023/11</h4>
+                    </div>
+                    </a>
+
+                  </div>
+                </div>
+                
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Works</h2>
+          <p style="margin-top: 30px;">我的專案和筆記</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0, box"><a href="">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bx bx-box"></i></div>
+              <h4 class="title">專案作品</h4>
+              <p class="description">主要是一些我覺得很好玩的小題目(也有比較大的專案啦)，內文有詳細介紹和技術指導(可能有)</p>
+            </div>
+          </a></div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0, box"><a href="">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title">筆記&講義</h4>
+              <p class="description">一些我在社團教的課程內容，也有無聊的時候寫出來的筆記</p>
+            </div>
+          </a></div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts  section-bg">
+      <div class="container">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-eye"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>網站瀏覽次數</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-folder-check"></i>
+              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>專案完成數</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-file-earmark-arrow-up"></i>
+              <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>發布筆記數</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-list-task"></i>
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>進行中計畫數量</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>聯繫方式</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>My School Address</h3>
+              <p>No.2, Yucai St., North Dist., Taichung City 40403, Taiwan (R.O.C.)</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Me</h3>
+              <p>chiudeyuan10111223@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Me</h3>
+              <p>+886 0908 756 900</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 ">
+            <div class="google-map">
+              <iframe id="map-canvas" class="map_part" width=100%  height=384px  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=No.2, Yucai St., North Dist., Taichung City 40403, Taiwan411&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="other-media">
+              <h3>Social Accounts</h3>
+              <div class="social-links-box">
+                <div class="social-links mt-3">
+                  <a href="http://discordapp.com/users/803197174589423626" class="discord"><i class="bx bxl-discord"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100009382470883" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="https://www.instagram.com/chiuchiucircle/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="https://github.com/ChiuDeYuan" class="github"><i class="bx bxl-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Chiu De-Yuan</h3>
+              <p class="pb-3">
+                <em>
+                  如果有什麼問題歡迎找我<br>
+                  也能找我一起做專案or聊天<br>
+                </em>
+                <img src="./assets/img/others/selfie_2.jpg" class="selfie_2">
+              </p>
+              <p>
+                <strong>Phone:</strong> +886 0908 756 900<br>
+                <strong>Email:</strong> chiudeyuan10111223@gmail.com<br>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://tcirc.tw/" target="_blank">台中一中電研社TCIRC</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://scaict.org/" target="_blank">中電會SCAICT</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://scint.org/" target="_blank">北電會SCINT</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU" target="_blank">CS229 Online Course</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://binarypiano.com/" target="_blank">Binary Piano</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Contents</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About Me</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">Latest</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Works</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        部分素材來自網路
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

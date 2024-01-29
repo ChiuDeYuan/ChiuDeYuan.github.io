@@ -797,18 +797,9 @@ section {
   color: #49788c;
 }
 
-.counts .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #49788c;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
-}
-
-.counts .count-box a:hover {
-  color: #6e9fb4;
+.counts .count-box a:hover i {
+  color: #ffd000;
+  transition: ease-in-out 0.2s;
 }
 
 /*--------------------------------------------------------------
